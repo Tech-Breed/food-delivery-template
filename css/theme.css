@@ -61,7 +61,7 @@
   display: block;
   width: 100%;
   padding: 1.5rem 3.2rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   line-height: 2.5;
   color: #424242;
@@ -94,7 +94,7 @@
 
 .nav-link {
   display: block;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   color: #757575;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
