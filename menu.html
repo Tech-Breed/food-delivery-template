@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/select.scss">
     <link rel="stylesheet" href="js/script.js">
 
     <title>menu</title>
@@ -335,28 +336,32 @@
           <button class="nav-link active mb-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa fa-motorcycle me-2"></i>Delivery</button>
           <button class="nav-link mb-3" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa fa-shopping-bag me-2"></i>Pickup</button>
         </div>
+        <p></p>
+        
+        <label>
+          <select>
+            <option>PORT-HARCOURT</option>
+            <option>Artillery</option>
+            <option>Woji</option>
+            <option>Slaughter</option>
+            <option>Akpajo</option>
+            <option>RUmukwusi</option>
+          </select>
+        </label>
+        <label>
+          <select>
+            <option>CALABAR</option>
+            <option>CALABAR</option>
+            <option>CALABAR</option>
+            <option>CALABAR</option>
+            <option>CALABAR</option>
+            
+          </select>
+        </label>
+
+
       </nav>
-      <div class="tab-content mt-3" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-          <form class="row gx-2 gy-2 align-items-center">
-            <div class="col">
-              <div class="input-group-icon"><i class="fa  fa-map-marker-alt text-danger input-box-icon"></i>
-                <label class="visually-hidden" for="inputDelivery">Address</label>
-                <input class="form-control input-box form-foodwagon-control" id="inputDelivery" type="text" placeholder="Enter Your Address" />
-              </div>
-            </div>
-            <div class="d-grid gap-3 col-sm-auto">
-             
-            </div>
-          </form>
-        </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-          <form class="row gx-4 gy-2 align-items-center">
-            <div class="col">
-              <div class="input-group-icon"><i class="fa fa-map-marker-alt text-danger input-box-icon"></i>
-                <label class="visually-hidden" for="inputPickup">Address</label>
-                <input class="form-control input-box form-foodwagon-control" id="inputPickup" type="text" placeholder="Enter Your Address" />
-              </div>
+      
             </div>
             <div class="d-grid gap-3 col-sm-auto">
              
@@ -396,7 +401,7 @@
     
     <script src="vendors/bootstrap/bootstrap.min.js"></script>
     
-   
+  
     <script src="vendors/fontawesome/all.min.js"></script>
     <script src="./js/testimonial.js"></script>
     <script src="./js/products.js"></script>

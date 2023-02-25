@@ -32,9 +32,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69d2e7', end
   padding:1em;
 }
 button, input[type="submit"] { 
-    border:1px solid #fa6d08; 
+    border:1px solid rgb(252, 85, 8); 
     color:#fff; 
-    background: #fa6d08 ;
+    background:rgb(252, 85, 8) ;
     padding:0.6em 1em;
     font-size:1em; 
     line-height:1; 
