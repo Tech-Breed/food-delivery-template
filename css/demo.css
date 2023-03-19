@@ -11,7 +11,7 @@ body{
   font-size: 15px;
 }
 .intro{
-   background: ;
+  
    padding: 60px 30px;
    color: #333;
    margin-bottom: 15px;
@@ -56,7 +56,7 @@ a.btn:hover{
 .down:before{content: "\f019"}
 .back:before{content:"\f112"}
 .credit{
-    background: ;
+    
     padding : 12px;
     font-size: 9pt;
     text-align: center;
@@ -86,9 +86,8 @@ a.btn:hover{
     margin: 3px;
 }
 main{
-  background: #fff;
-  padding::20%;
-  
+   background: #fff;
+   padding::20%; 
 }
 
 article li{

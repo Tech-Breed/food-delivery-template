@@ -5,10 +5,7 @@ body{
   text-align:center;
   line-height:1.5em;
 /*   background:#E0E4CC; */
- background: #69d2e7;
-background: -moz-linear-gradient(-45deg, #69d2e7 0%, #a7dbd8 25%, #e0e4cc 46%, #e0e4cc 54%, #fa6d08 75%, #fa6d08 100%);
-background: -webkit-linear-gradient(-45deg, #69d2e7 0%,#a7dbd8 25%,#e0e4cc 46%,#e0e4cc 54%,#fa6d08 75%,#fa6d08 100%);
-background: linear-gradient(135deg, #69d2e7 0%,#a7dbd8 25%,#e0e4cc 46%,#e0e4cc 54%, #fa6d08 75%, #fa6d08 100%);
+ 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69d2e7', endColorstr='#fa6900',GradientType=1 );
 }
 
